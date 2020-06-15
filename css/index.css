@@ -1,5 +1,6 @@
 * {
     font-family: monospace;
+    text-align: center;
 }
 body {
     display: grid;
@@ -19,4 +20,14 @@ nav{
     width: 100%;
     grid-column: 1/4;
     grid-row: 2;
+    text-align: center;
+    padding: ;
+}
+.nav_button{
+    font-size: 25px;
+    background-color: grey;
+    border: none;
+}
+.nav_button:hover{
+    color: lightskyblue;
 }

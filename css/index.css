@@ -1,0 +1,22 @@
+* {
+    font-family: monospace;
+}
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    background-color: darkgrey;
+}
+header {
+    background-color: lightslategray;
+    padding: 20px;
+    font-size: 50px;
+    grid-column: 1/4;
+    grid-row: 1;
+}
+nav{
+    background-color: grey;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 2;
+}

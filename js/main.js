@@ -29,4 +29,21 @@ function openSite(btn_num) {
 }
 
 function changebuttonstyle(btn_style) {
+    switch(btn_style) {
+        case 1: {
+            document.getElementById("btn_nav_home").style.color = 'lightskyblue';
+        }
+        case 2: {
+            document.getElementById("btn_nav_features").style.color = 'lightskyblue';
+        }
+        case 3: {
+            document.getElementById("btn_nav_price").style.color = 'lightskyblue';
+        }
+        case 4: {
+            document.getElementById("btn_nav_Docu").style.color = 'lightskyblue';
+        }
+        case 5: {
+            document.getElementById("btn_nav_contact").style.color = 'lightskyblue';;
+        }
+    }
 }

@@ -1,19 +1,32 @@
+function openSite(btn_num) {
+    switch(btn_num) {
+        case 1: {
+            window.open("index.html");
+            document.getElementById("btn_nav_home").style.color = 'lightskyblue';
+            changebuttonstyle(1);
+        }
+        case 2: {
+            window.open("features.html");
+            document.getElementById("btn_nav_home").style.color = 'lightskyblue';
+            changebuttonstyle(2);
+        }
+        case 3: {
+            window.open("price.html");
+            document.getElementById("btn_nav_home").style.color = 'lightskyblue';
+            changebuttonstyle(3);
+        }
+        case 4: {
+            window.open("docu.html");
+            document.getElementById("btn_nav_home").style.color = 'lightskyblue';
+            changebuttonstyle(4);
+        }
+        case 5: {
+            window.open("contact.html");
+            document.getElementById("btn_nav_home").style.color = 'lightskyblue';
+            changebuttonstyle(5);
+        }
+    }
+}
 
-
-function changebuttonstyle() {
-    if (document.getElementsByClassName("nav_button").value = "home") {
-        document.getElementById("btn_nav_home").style.color = 'lightskyblue';
-    }
-    else if (document.getElementsByClassName("nav_button").value = "features") {
-        document.getElementById("btn_nav_features").style.color = 'lightskyblue';
-    }
-    else if (document.getElementsByClassName("nav_button").value = "price") {
-        document.getElementById("btn_nav_price").style.color = 'lightskyblue';
-    }
-    else if (document.getElementsByClassName("nav_button").value = "docu") {
-        document.getElementById("btn_nav_Docu").style.color = 'lightskyblue';
-    }
-    else if (document.getElementsByClassName("nav_button").value = "contact") {
-        document.getElementById("btn_nav_contact").style.color = 'lightskyblue';
-    }
+function changebuttonstyle(btn_style) {
 }

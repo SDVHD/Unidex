@@ -1,3 +1,5 @@
+
+
 function changebuttonstyle() {
     if (document.getElementsByClassName("nav_button").value = "home") {
         document.getElementById("btn_nav_home").style.color = 'lightskyblue';

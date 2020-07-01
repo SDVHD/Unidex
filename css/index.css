@@ -21,7 +21,6 @@ nav{
     grid-column: 1/4;
     grid-row: 2;
     text-align: center;
-    padding: ;
 }
 .nav_button{
     font-size: 25px;

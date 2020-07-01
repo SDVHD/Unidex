@@ -31,20 +31,39 @@ nav{
 .nav_button:hover{
     color: lightskyblue;
 }
+#btn_nav_home{
+    color: lightsteelblue;
+}
 section {
     grid-column: 1/4;
     grid-row: 3/5;
     height: 100%;
     background-color: rgba(33, 37, 58, 0.431);
 }
-#div_box1_front {
-    position: relative;
-    height: 50px;
-    width: 70px;
-    background-color: whitesmoke;
-    transition: 0.8s;
-    transform-style:preserve-3d ;
+.div_footer {
+    padding: 5px;
 }
-#div_box1_front:hover {
-    transform: rotateY(180deg);
+.div_footer, .link_footer {
+    background-color: lightslategrey;
+    grid-column: 1/4;
+    grid-row: 5;
+    text-align: center;
+}
+a, .link_footer {
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+a, .link_footer::after {
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+a, .link_footer:focus {
+    color: lightskyblue;
+    border: none;
+    text-decoration: none;
+}
+footer {
+    grid-column: 1/4;
 }
